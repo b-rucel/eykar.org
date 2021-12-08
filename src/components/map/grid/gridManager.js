@@ -7,7 +7,7 @@ export function findCell(x, y, voronoi) {
   return cell;
 }
 
-export function drawCell(context, cell, colorF, voronoi, colorS) {
+function drawCell(context, cell, colorF, voronoi, colorS) {
   if (voronoi.getVoronoi !== null) {
     context.beginPath();
     context.fillStyle = colorF;

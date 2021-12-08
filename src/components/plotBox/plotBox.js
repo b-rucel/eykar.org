@@ -44,8 +44,8 @@ export default function PlotBox({ plotInfo, plot }) {
           x: <span className="plotBox coo">{plotInfo.coord.x}</span> y: <span className="plotBox coo">{plotInfo.coord.y}</span></h2>
         <p className="plotBox info">
           Biome: <span className="plotBox result">{plotInfo.biome}</span><br />
-          Temperature: <span className="plotBox result">{Math.floor(plotInfo.temperature)}</span><br />
-          Elevation: <span className="plotBox result">{Math.floor(plotInfo.elevation)}</span>
+          Temperature: <span className="plotBox result">{Math.floor(plotInfo.temperature)}°C</span><br />
+          Elevation: <span className="plotBox result">{Math.floor(plotInfo.elevation)}m</span>
         </p>
       </div>
     </div>
